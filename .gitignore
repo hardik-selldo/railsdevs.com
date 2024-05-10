@@ -31,6 +31,7 @@
 /config/credentials/production.key
 /config/credentials/development.key
 /config/credentials/development.yml.enc
+/config/credentials.yml.enc
 
 # Assets
 /public/assets
@@ -39,6 +40,8 @@
 
 # Node
 /node_modules
+package-lock.json
+yarn.lock
 
 # Local Docker Development
 .dockerdev/*
